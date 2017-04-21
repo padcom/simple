@@ -1,19 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Witaj we VueJS</title>
-  <script src="https://unpkg.com/vue/dist/vue.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Witaj świecie!</title>
+  <script src="https://unpkg.com/vue/dist/vue.js" charset="utf-8"></script>
 </head>
 <body>
   <div id="app">
     <h1>\{{ greeting }}</h1>
   </div>
-
-  <script>
+  <script type="text/javascript">
     new Vue({
-      el: '#app',
+      el: "#app",
       data: {
-        greeting: 'Witaj w aplikacji VueJS!',
+        greeting: "Witaj w aplikacji Vue.js"
       }
     })
   </script>
